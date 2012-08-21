@@ -1,0 +1,31 @@
+{
+    "name": "sp/theme-bundle",
+    "type": "symfony-bundle",
+    "description": "Installable themes with possibility to create user defined stylesheets.",
+    "keywords": ["themes", "theming"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Martin Parsiegla",
+            "email": "martin.parsiegla@gmail.com",
+            "homepage": "http://speanet.info"
+        },
+        {
+            "name": "Community contributions",
+            "homepage": "https://github.com/Spea/SpThemeBundle/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": ">=2.0,<2.2-dev",
+        "liip/theme-bundle": "dev-master"
+    },
+    "require-dev":{
+        "symfony/console": ">=2.0,<2.2-dev"
+    },
+    "autoload": {
+        "psr-0": { "Sp\\ThemeBundle": "" }
+    },
+    "target-dir": "Sp/ThemeBundle"
+}
