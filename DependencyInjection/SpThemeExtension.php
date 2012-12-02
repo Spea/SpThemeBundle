@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Sp/ThemeBundle.
+ * This file is part of the SpThemeBundle package.
  *
  * (c) Martin Parsiegla <martin.parsiegla@gmail.com>
  *

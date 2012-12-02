@@ -1,8 +1,8 @@
 {
     "name": "sp/theme-bundle",
     "type": "symfony-bundle",
-    "description": "Installable themes with possibility to create user defined stylesheets.",
-    "keywords": ["themes", "theming"],
+    "description": "Create user defined stylesheets.",
+    "keywords": ["stylesheets", "user defined", "css"],
     "license": "MIT",
     "minimum-stability": "dev",
     "authors": [
@@ -18,11 +18,10 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "symfony/framework-bundle": ">=2.0,<2.2-dev",
-        "liip/theme-bundle": "dev-master"
+        "symfony/framework-bundle": ">=2.1,<2.3-dev"
     },
     "require-dev":{
-        "symfony/console": ">=2.0,<2.2-dev"
+        "symfony/console": ">=2.1,<2.3-dev"
     },
     "autoload": {
         "psr-0": { "Sp\\ThemeBundle": "" }
